@@ -1,3 +1,3 @@
 # a-simple-sysadmin-bash-script-1
 
-### to be updated
+A simple bash script to automatically run common linux admininstrative tasks.
