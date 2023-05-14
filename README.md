@@ -4,7 +4,10 @@ A simple bash script to automatically run common linux admininstrative tasks usi
 
 The script works by prompting the administrator to select the desired administrative task, the script then does the desired job automatically.
 
-## PS3 variable and select statement
+### Bash menus
+Bash menus are used to create interactive selection interfaces in Bash scripting. They allow users to choose options from a menu and perform actions based on their selections. Bash menus are typically implemented using the select statement, which displays a prompt and a numbered list of options
+
+### PS3 variable and select statement
 The PS3 variable refers to the Prompt String 3 variable. It is a special variable used by the "select" statement to customize the prompt displayed when creating menus with the "select" construct.
 The select statement is used to create a simple menu system in Bash, where the user can choose options by entering a number corresponding to the displayed choices. The PS3 variable allows you to define the prompt string displayed before the menu options.
 ~~~ 
@@ -15,7 +18,7 @@ do
 The snippet above is creating a menu of some admistrative tasks to be selected from then autmoatically run by the script
 
 
-## REPLY variable
+### REPLY variable
 The REPLY variable is automatically set to the user's input. The REPLY variable stores the value entered by the user when prompted for a selection. The user will select an entry from the menu using its corresponding number which is held in the REPLY variable
 
 ## Testing the REPLY variable for the task selected
