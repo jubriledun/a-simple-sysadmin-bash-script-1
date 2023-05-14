@@ -2,7 +2,7 @@
 
 A simple bash script to automatically run common linux admininstrative tasks using bash menus .
 
-The script works by simply selecting the desired task, the scipt then does the desired job for you.
+The script works by prompting the administrator to select the desired administrative task, the script then does the desired job automatically.
 
 ## PS3 variable and select statement
 The PS3 variable refers to the Prompt String 3 variable. It is a special variable used by the "select" statement to customize the prompt displayed when creating menus with the "select" construct.
