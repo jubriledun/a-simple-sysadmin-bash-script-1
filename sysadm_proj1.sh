@@ -2,13 +2,13 @@
 
 # A simple script with some common addministrative tasks using "bash menus"
 
-PS3="Select a task"  
+PS3="Select a task: "  
 select ITEM in "Add User" "List all Processes" "Kill Process" "Install Program" "Quit"
 do
 
 if [[ $REPLY -eq 1 ]]
 then
-    read -p "Enter the username:" username
+    read -p "Enter the username: " username
     output="$( grep -w $username /etc/passwd )"
     if [[ -n "$output" ]]
     then
@@ -32,12 +32,12 @@ then
 
 elif [[ $REPLY -eq 3 ]] 
 then
-    read -p "Enter Process to Kill:" process
+    read -p "Enter Process to Kill: " process
     pkill $process
 
 elif [[ $REPLY -eq 4 ]]
 then
-    read -p "Enter the program to install" program
+    read -p "Enter the program to install: " program
     sudo apt update && sudo apt install $program
 
 elif [[ $REPLY -eq 5 ]]
