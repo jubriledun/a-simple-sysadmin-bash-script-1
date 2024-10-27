@@ -1,4 +1,4 @@
-# A-sysadmin-bash-script-1
+# A sysadmin bash script
 
 A simple bash script to automatically run common linux admininstrative tasks using bash menus .
 
