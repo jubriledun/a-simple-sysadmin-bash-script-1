@@ -4,6 +4,11 @@ A simple bash script to automatically run common linux admininstrative tasks usi
 
 The script works by prompting the administrator to select the desired administrative task, the script then does the desired job automatically.
 
+
+### Running the script
+![image](https://github.com/user-attachments/assets/d5b0b296-bb8d-48f8-a9ea-c93b9a70b646) <br> <br>
+![image](https://github.com/user-attachments/assets/bdf035c5-f1c2-48a6-91ec-3b09732b0904) <br> <br>
+
 ### Bash menus
 Bash menus are used to create interactive selection interfaces in Bash scripting. They allow users to choose options from a menu and perform actions based on their selections. Bash menus are typically implemented using the select statement, which displays a prompt and a numbered list of options
 
